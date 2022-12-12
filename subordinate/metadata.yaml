@@ -1,0 +1,23 @@
+# Copyright 2022 Canonical Ltd.
+# See LICENSE file for licensing details.
+
+# For a complete list of supported options, see:
+# https://juju.is/docs/sdk/metadata-reference
+
+name: hpc-node-subordinate
+
+display-name: |
+  HPC node subordinate operator
+
+description: |
+  Generic, HPC node subordinate operator.
+
+summary: |
+  Generic, HPC node subordinate operator.
+
+subordinate: yes
+
+requires:
+  node:
+    interface: subordinate
+    scope: container
