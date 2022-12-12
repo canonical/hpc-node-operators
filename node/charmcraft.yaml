@@ -1,0 +1,7 @@
+# This file configures Charmcraft.
+# See https://juju.is/docs/sdk/charmcraft-config for guidance.
+
+type: charm
+bases:
+  - name: ubuntu
+    channel: "22.04"

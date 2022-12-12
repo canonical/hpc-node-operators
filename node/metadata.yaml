@@ -1,0 +1,21 @@
+# Copyright 2022 Canonical Ltd.
+# See LICENSE file for licensing details.
+
+# For a complete list of supported options, see:
+# https://juju.is/docs/sdk/metadata-reference
+
+name: hpc-node
+
+display-name: |
+  HPC node principal operator
+
+description: |
+  HPC node principal operator.
+
+summary: |
+  HPC node principal operator.
+
+provides:
+  node:
+    interface: subordinate
+    scope: container
